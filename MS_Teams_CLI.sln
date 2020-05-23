@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MS_Teams_CLI", "MS_Teams_CLI.csproj", "{18CAA486-467F-4448-8FB6-D074D79885C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8BAC8D68-C24E-41C9-8B75-8A565BA2F806} = {8BAC8D68-C24E-41C9-8B75-8A565BA2F806}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MS_Teams_API", "MS_Teams_API\MS_Teams_API.csproj", "{8BAC8D68-C24E-41C9-8B75-8A565BA2F806}"
 EndProject
