@@ -1,0 +1,3 @@
+[submodule "MS_Teams_API"]
+	path = MS_Teams_API
+	url = https://github.com/TheProgramableTurtle/MS-Teams-API

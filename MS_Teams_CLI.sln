@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MS_Teams_CLI", "MS_Teams_CLI.csproj", "{18CAA486-467F-4448-8FB6-D074D79885C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MS_Teams_API", "MS_Teams_API\MS_Teams_API.csproj", "{8BAC8D68-C24E-41C9-8B75-8A565BA2F806}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18CAA486-467F-4448-8FB6-D074D79885C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CAA486-467F-4448-8FB6-D074D79885C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CAA486-467F-4448-8FB6-D074D79885C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CAA486-467F-4448-8FB6-D074D79885C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BAC8D68-C24E-41C9-8B75-8A565BA2F806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAC8D68-C24E-41C9-8B75-8A565BA2F806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAC8D68-C24E-41C9-8B75-8A565BA2F806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAC8D68-C24E-41C9-8B75-8A565BA2F806}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D72EEB1E-028A-4933-84B0-0FB3B0E68086}
+	EndGlobalSection
+EndGlobal

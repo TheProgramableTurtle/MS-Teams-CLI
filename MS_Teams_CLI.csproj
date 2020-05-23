@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="MS_Teams_API\**" />
+    <EmbeddedResource Remove="MS_Teams_API\**" />
+    <None Remove="MS_Teams_API\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
     <PackageReference Include="Selenium.Support" Version="3.141.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
@@ -14,7 +20,7 @@
 
   <ItemGroup>
     <Reference Include="MS_Teams_API">
-      <HintPath>..\MS Teams API\bin\Debug\netcoreapp3.1\MS_Teams_API.dll</HintPath>
+      <HintPath>MS_Teams_API\bin\Debug\netcoreapp3.1\MS_Teams_API.dll</HintPath>
     </Reference>
   </ItemGroup>
 
